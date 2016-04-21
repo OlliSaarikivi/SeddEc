@@ -31,8 +31,8 @@ find_package(Z3 4.4.1 REQUIRED)
 include_directories(${Z3_INCLUDE_DIR})
 target_link_libraries(seddec ${Z3_LIBRARY})
 
-find_package(Boost)
-include_directories(${Boost_INCLUDE_DIRS})
+#find_package(Boost)
+#include_directories(${Boost_INCLUDE_DIRS})
 
 # Enables precompiled headers
 #include(cotire)

@@ -29,10 +29,10 @@ using std::queue;
 using std::begin;
 using std::end;
 
-#include <boost/optional.hpp>
+//#include <boost/optional.hpp>
 
-using boost::optional;
-using boost::none;
+//using boost::optional;
+//using boost::none;
 
 #include <z3.h>
 #include <z3++.h>
